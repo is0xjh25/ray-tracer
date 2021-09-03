@@ -1,6 +1,6 @@
 # Ray Tracer
 
-**Name:** Yun-Chi Hsiao \
+**Name:** Yun-Chi Hsiao
 
 ## Completed stages
 <!---
