@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/HYC-MacBookPro/.dotnet/store/|arch|/|tfm|",
+      "/Users/HYC-MacBookPro/.nuget/packages"
+    ]
+  }
+}

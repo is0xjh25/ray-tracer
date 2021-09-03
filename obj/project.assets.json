@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CommandLineParser/2.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CommandLine.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CommandLine.dll": {}
+        }
+      },
+      "StbImageWriteSharp/1.13.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/StbImageWriteSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/StbImageWriteSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommandLineParser/2.8.0": {
+      "sha512": "eco2HlKQBY4Joz9odHigzGpVzv6pjsXnY5lziioMveQxr+i2Z7xYcIOMeZTgYiqnMtMAbXMXsVhrNfWO5vJS8Q==",
+      "type": "package",
+      "path": "commandlineparser/2.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CommandLine20.png",
+        "License.md",
+        "README.md",
+        "commandlineparser.2.8.0.nupkg.sha512",
+        "commandlineparser.nuspec",
+        "lib/net40/CommandLine.dll",
+        "lib/net40/CommandLine.xml",
+        "lib/net45/CommandLine.dll",
+        "lib/net45/CommandLine.xml",
+        "lib/net461/CommandLine.dll",
+        "lib/net461/CommandLine.xml",
+        "lib/netstandard2.0/CommandLine.dll",
+        "lib/netstandard2.0/CommandLine.xml"
+      ]
+    },
+    "StbImageWriteSharp/1.13.5": {
+      "sha512": "AxnCp3V1OwpVhLYeftM+pBF2Ob8iqqMeppZmOb7H5rE6H0xdBU/F2BXWgty5OpjXbFaIuybFEieEmbxLdH+CJg==",
+      "type": "package",
+      "path": "stbimagewritesharp/1.13.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/StbImageWriteSharp.dll",
+        "lib/netstandard2.0/StbImageWriteSharp.dll",
+        "stbimagewritesharp.1.13.5.nupkg.sha512",
+        "stbimagewritesharp.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CommandLineParser >= 2.8.0",
+      "StbImageWriteSharp >= 1.13.5"
+    ]
+  },
+  "packageFolders": {
+    "/Users/HYC-MacBookPro/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/HYC-MacBookPro/Documents/project-1-ray-tracer-is0xjh25/RayTracer.csproj",
+      "projectName": "RayTracer",
+      "projectPath": "/Users/HYC-MacBookPro/Documents/project-1-ray-tracer-is0xjh25/RayTracer.csproj",
+      "packagesPath": "/Users/HYC-MacBookPro/.nuget/packages/",
+      "outputPath": "/Users/HYC-MacBookPro/Documents/project-1-ray-tracer-is0xjh25/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/HYC-MacBookPro/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "CommandLineParser": {
+            "target": "Package",
+            "version": "[2.8.0, )"
+          },
+          "StbImageWriteSharp": {
+            "target": "Package",
+            "version": "[1.13.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
