@@ -1,7 +1,4 @@
 # COMP30019 Assignment 1 - Ray Tracer
-This is your README.md... you should write anything relevant to your implementation here.
-
-Please ensure your student details are specified below (*exactly* as on UniMelb records):
 
 **Name:** Yun-Chi Hsiao \
 **Student Number:** 1074004 \
@@ -9,9 +6,6 @@ Please ensure your student details are specified below (*exactly* as on UniMelb 
 **Email:** yunchi@student.unimelb.edu.au
 
 ## Completed stages
-
-Tick the stages bellow that you have completed so we know what to mark (by editing README.md). At most **six** marks can be chosen in total for stage three. If you complete more than this many marks, pick your best one(s) to be marked!
-
 <!---
 Tip: To tick, place an x between the square brackes [ ], like so: [x]
 -->
@@ -43,13 +37,7 @@ Tip: To tick, place an x between the square brackes [ ], like so: [x]
 - [ ] Option F - Beer's law (+3)
 - [ ] Option G - Depth of field (+3)
 
-*Please summarise your approach(es) to stage 3 here.*
-
-
-
 ## Final scene render
-
-Be sure to replace ```/images/final_scene.png``` with your final render so it shows up here:
 
 ![My final render](/images/final_scene.png)
 
@@ -62,8 +50,6 @@ dotnet run -- -f tests/final_scene.txt -o ./images/final_scene.png -l -x4
 ```
 
 ## Sample outputs
-
-We have provided you with some sample tests located at ```/tests/*```. So you have some point of comparison, here are the outputs our ray tracer solution produces for given command line inputs (for the first two stages, left and right respectively):
 
 ###### Sample 1
 ```
