@@ -1,9 +1,6 @@
-# COMP30019 Assignment 1 - Ray Tracer
+# Ray Tracer
 
 **Name:** Yun-Chi Hsiao \
-**Student Number:** 1074004 \
-**Username:** yunchi \
-**Email:** yunchi@student.unimelb.edu.au
 
 ## Completed stages
 <!---
