@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y2Qhqp/zxKNDVWpUSGjQZflQAFsHC0QKS/nkimte1rctiK34FYLGeMquVQWIYISxFdQDx/P7Cf8+K8qXHQ76FA==",
+  "dgSpecHash": "VIsBnR5sXaFlWfWA4hbIV+5lnMYaW6YoFpfxbEAz7EmKggeJAElHK3yPRuJ/Be9b0cD58jV2vSyLxT8NEqNRKA==",
   "success": true,
-  "projectFilePath": "/Users/HYC-MacBookPro/Documents/project-1-ray-tracer-is0xjh25/RayTracer.csproj",
+  "projectFilePath": "/Users/HYC-MacBookPro/Documents/unimelb/ray-tracer/RayTracer.csproj",
   "expectedPackageFiles": [
     "/Users/HYC-MacBookPro/.nuget/packages/commandlineparser/2.8.0/commandlineparser.2.8.0.nupkg.sha512",
     "/Users/HYC-MacBookPro/.nuget/packages/stbimagewritesharp/1.13.5/stbimagewritesharp.1.13.5.nupkg.sha512"

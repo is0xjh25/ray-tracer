@@ -259,7 +259,7 @@ namespace RayTracer
                 double cosi = Math.Clamp(realHit.Incident.Dot(n), -1, 1);
                 double etai = 1;
                 double etat = realEntity.Material.RefractiveIndex;
-                    
+
                 // outside the surface
                 if (cosi < 0)
                 {   

@@ -71,11 +71,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/HYC-MacBookPro/Documents/project-1-ray-tracer-is0xjh25/RayTracer.csproj",
+      "projectUniqueName": "/Users/HYC-MacBookPro/Documents/unimelb/ray-tracer/RayTracer.csproj",
       "projectName": "RayTracer",
-      "projectPath": "/Users/HYC-MacBookPro/Documents/project-1-ray-tracer-is0xjh25/RayTracer.csproj",
+      "projectPath": "/Users/HYC-MacBookPro/Documents/unimelb/ray-tracer/RayTracer.csproj",
       "packagesPath": "/Users/HYC-MacBookPro/.nuget/packages/",
-      "outputPath": "/Users/HYC-MacBookPro/Documents/project-1-ray-tracer-is0xjh25/obj/",
+      "outputPath": "/Users/HYC-MacBookPro/Documents/unimelb/ray-tracer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/HYC-MacBookPro/.nuget/NuGet/NuGet.Config"

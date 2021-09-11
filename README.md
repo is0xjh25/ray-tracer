@@ -1,8 +1,17 @@
-# Ray Tracer
+# COMP30019 Assignment 1 - Ray Tracer
+This is your README.md... you should write anything relevant to your implementation here.
 
-**Name:** Yun-Chi Hsiao
+Please ensure your student details are specified below (*exactly* as on UniMelb records):
+
+**Name:** Yun-Chi Hsiao \
+**Student Number:** 1074004 \
+**Username:** yunchi \
+**Email:** yunchi@student.unimelb.edu.au
 
 ## Completed stages
+
+Tick the stages bellow that you have completed so we know what to mark (by editing README.md). At most **six** marks can be chosen in total for stage three. If you complete more than this many marks, pick your best one(s) to be marked!
+
 <!---
 Tip: To tick, place an x between the square brackes [ ], like so: [x]
 -->
@@ -34,10 +43,14 @@ Tip: To tick, place an x between the square brackes [ ], like so: [x]
 - [ ] Option F - Beer's law (+3)
 - [ ] Option G - Depth of field (+3)
 
-Summary of Option B:\
-To implement ambient lighting/occlusion in Stage 3, Monte Carlo Path Tracing is used for creating global illumination.Generally, rays are randomly generated into a hemisphere of directions oriented around the shading normal. If these rays hit an object, the color at the intersection point is computed and returned to the shading point. All the colors are summed up and divided by the number N of cast samples. Monte Carlo theory also implies to divide each sample by the random variable PDF, and to multiply the object's color by the cosine of the angle between the shading normal and the ray direction. The ambient sample size of the final image is set to eight due to the limit of time (and the anti-aliasing is -x4). If the computational process can be opitmised (it definitely can), the sample size can be increased as well which leads to having a greater and smoother image with ambient lighting.
+*Please summarise your approach(es) to stage 3 here.*
+
+To implement ambient lighting/occlusion in Stage 3, Monte Carlo Path Tracing is used for creating global illumination.Generally, rays are randomly generated into a hemisphere of directions oriented around the shading normal. If these rays hit an object, the color at the intersection point is computed and returned to the shading point. All the colors are summed up and divided by the number N of cast samples. Monte Carlo theory also implies to divide each sample by the random variable PDF, and to multiply the object's color by the cosine of the angle between the shading normal and the ray direction. The ambient sample size of the final image is set to eight due to the limit of time (and the anti-aliasing is -x4). If the computational process can be opitmised (it definitely can),
+the sample size can be increased as well which leads to having a greater and smoother image with ambient lighting.
 
 ## Final scene render
+
+Be sure to replace ```/images/final_scene.png``` with your final render so it shows up here:
 
 ![My final render](/images/final_scene.png)
 
@@ -50,6 +63,8 @@ dotnet run -- -f tests/final_scene.txt -o ./images/final_scene.png -l -x4
 ```
 
 ## Sample outputs
+
+We have provided you with some sample tests located at ```/tests/*```. So you have some point of comparison, here are the outputs our ray tracer solution produces for given command line inputs (for the first two stages, left and right respectively):
 
 ###### Sample 1
 ```
